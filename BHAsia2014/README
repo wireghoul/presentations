@@ -15,3 +15,5 @@ This repository contains the following files:
    be cracked with john the ripper
  * Solutum cumulus mediocris
    Presentation slides (with annotations)
+ * cuda
+   Poc 2 salt md cuda cracker
