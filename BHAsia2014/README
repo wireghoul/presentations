@@ -1,0 +1,17 @@
+Solutum cumulus mediocris
+=========================
+Files and slides from my Blackhat Asia 2014 presentation.
+This repository contains the following files:
+
+ * returnbrute.pl
+   PoC how you can brute force hidden validation pages in APIs where the
+   payment gateway makes a HTTP request to the merchant to validate payment
+   received. If you know the url you can usually spoof this message
+ * Dynamic.conf
+   Example of how a payment gateway request validation digest can be defined
+   as a dynamic format for cracking with john the ripper
+ * html2dynamic.pl
+   Extract values from the checkout html form to generate a dynamic hash to
+   be cracked with john the ripper
+ * Solutum cumulus mediocris
+   Presentation slides (with annotations)
