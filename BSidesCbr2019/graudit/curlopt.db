@@ -1,0 +1,1 @@
+CURLOPT_SSL_VERIFY(PEER|HOST|STATUS).*([Ff][Aa][Ll][Ss][Ee]|0)

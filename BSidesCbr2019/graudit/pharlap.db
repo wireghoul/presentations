@@ -1,0 +1,1 @@
+file_exists[[:space:]]*\(\$_(GET|POST|COOKIE|REQUEST)

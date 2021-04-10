@@ -1,0 +1,5 @@
+query[[:space:]]*\(.*\$_(GET|POST|REQUEST|COOKIE)\[
+[Ss][Ee][Ll][Ee][Cc][Tt].*\$_(GET|POST|REQUEST|COOKIE)\[.*[Ff][Rr][Oo][Mm]
+[Ss][Ee][Ll][Ee][Cc][Tt].*[Ff][Rr][Oo][Mm].*\$_(GET|POST|REQUEST|COOKIE)\[
+[Ww][Hh][Ee][Rr][Ee].*=.*\$_(GET|POST|REQUEST|COOKIE)\[
+[\'\" ]([Aa][Nn][Dd]|[Oo][Rr]).*=.*\$_(GET|POST|REQUEST|COOKIE)\[

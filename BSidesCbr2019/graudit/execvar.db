@@ -1,0 +1,5 @@
+system[[:space:]]*\(.*\$.*
+exec[[:space:]]*\(.*\$.*
+proc_open[[:space:]]*\(.*\$.*
+passthru[[:space:]]*\(.*\$.*
+`[^`]*\$[^`]+`
